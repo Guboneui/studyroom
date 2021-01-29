@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstBtn: UIViewController {
     
     
     var mySeat: UILabel!
