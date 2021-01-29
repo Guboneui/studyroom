@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var seatNum: UILabel!
     var reserveTime: UILabel!
     
+    
    
     override func loadView() {
         view = UIView()
