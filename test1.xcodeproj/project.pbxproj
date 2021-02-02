@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0D116325C70561001FA291 /* FirstBtn_nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D116225C70561001FA291 /* FirstBtn_nil.swift */; };
 		2CB8195B25C438AD009AA95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8195A25C438AD009AA95E /* AppDelegate.swift */; };
 		2CB8195D25C438AD009AA95E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8195C25C438AD009AA95E /* SceneDelegate.swift */; };
 		2CB8195F25C438AD009AA95E /* FirstBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8195E25C438AD009AA95E /* FirstBtn.swift */; };
 		2CB8196425C438AD009AA95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8196325C438AD009AA95E /* Assets.xcassets */; };
 		2CB8196725C438AD009AA95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8196525C438AD009AA95E /* LaunchScreen.storyboard */; };
+		2CB8197425C4801E009AA95E /* 하단 슬라이드 뷰 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8197325C4801E009AA95E /* 하단 슬라이드 뷰 */; };
+		2CEB501025C83B9100E1D3CC /* SelectSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB500F25C83B9100E1D3CC /* SelectSeat.swift */; };
+		2CEB501625C8703500E1D3CC /* ClickedCompleteBtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB501525C8703500E1D3CC /* ClickedCompleteBtnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0D116225C70561001FA291 /* FirstBtn_nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBtn_nil.swift; sourceTree = "<group>"; };
 		2CB8195725C438AD009AA95E /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB8195A25C438AD009AA95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB8195C25C438AD009AA95E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		2CB8196325C438AD009AA95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB8196625C438AD009AA95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB8196825C438AD009AA95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB8197325C4801E009AA95E /* 하단 슬라이드 뷰 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "하단 슬라이드 뷰"; sourceTree = "<group>"; };
+		2CEB500F25C83B9100E1D3CC /* SelectSeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeat.swift; sourceTree = "<group>"; };
+		2CEB501525C8703500E1D3CC /* ClickedCompleteBtnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickedCompleteBtnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		2CB8195925C438AD009AA95E /* test1 */ = {
 			isa = PBXGroup;
 			children = (
+				2CB8197225C47FF7009AA95E /* testImage */,
 				2CB8195A25C438AD009AA95E /* AppDelegate.swift */,
 				2CB8195C25C438AD009AA95E /* SceneDelegate.swift */,
-				2CB8195E25C438AD009AA95E /* FirstBtn.swift */,
 				2CB8196325C438AD009AA95E /* Assets.xcassets */,
 				2CB8196525C438AD009AA95E /* LaunchScreen.storyboard */,
 				2CB8196825C438AD009AA95E /* Info.plist */,
+				2CB8195E25C438AD009AA95E /* FirstBtn.swift */,
+				2C0D116225C70561001FA291 /* FirstBtn_nil.swift */,
+				2CEB500F25C83B9100E1D3CC /* SelectSeat.swift */,
+				2CEB501525C8703500E1D3CC /* ClickedCompleteBtnViewController.swift */,
 			);
 			path = test1;
+			sourceTree = "<group>";
+		};
+		2CB8197225C47FF7009AA95E /* testImage */ = {
+			isa = PBXGroup;
+			children = (
+				2CB8197325C4801E009AA95E /* 하단 슬라이드 뷰 */,
+			);
+			path = testImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB8196725C438AD009AA95E /* LaunchScreen.storyboard in Resources */,
+				2CB8197425C4801E009AA95E /* 하단 슬라이드 뷰 in Resources */,
 				2CB8196425C438AD009AA95E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +156,10 @@
 			files = (
 				2CB8195F25C438AD009AA95E /* FirstBtn.swift in Sources */,
 				2CB8195B25C438AD009AA95E /* AppDelegate.swift in Sources */,
+				2CEB501625C8703500E1D3CC /* ClickedCompleteBtnViewController.swift in Sources */,
 				2CB8195D25C438AD009AA95E /* SceneDelegate.swift in Sources */,
+				2CEB501025C83B9100E1D3CC /* SelectSeat.swift in Sources */,
+				2C0D116325C70561001FA291 /* FirstBtn_nil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.boni.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boni.test1.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.boni.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boni.test1.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
